@@ -12,10 +12,6 @@
       rgba(226, 157, 9, 0.938) 0px 15px 12px;
   }
 }
-
-.row {
-  margin-bottom: 40px;
-}
 @media screen and (min-width: 768px) {
   .col {
     max-width: 50%;
@@ -77,9 +73,11 @@
 }
 @media only screen and (max-width: 600px) {
   .input {
-    margin-top: 10px;
-    border-radius: 4px;
-    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #f4f6f8;
+    text-indent: 0px;
+    border-radius: 0px;
   }
 }
 .input {
@@ -95,7 +93,6 @@
   .next {
     margin-top: 10px;
     border-radius: 4px;
-    align-items: center;
   }
 }
 .next {
@@ -115,6 +112,12 @@
   margin: auto;
   margin-top: 25px;
   transition: all 0.2s ease-in-out;
+}
+@media only screen and (max-width: 600px) {
+  .icons {
+    margin-top: 10px;
+    border-radius: 4px;
+  }
 }
 .microsoft {
   background-color: #f2f2f2;

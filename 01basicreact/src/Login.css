@@ -1,31 +1,164 @@
-@media only screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .main {
     background: linear-gradient(
       to top,
       rgba(242, 247, 246, 0.87) 50%,
       rgba(242, 247, 246, 0.87) 50%
     );
-    width: 70%;
-    height: 600px;
+    max-width: 200%;
+    height: 530px;
     margin: 10% 20%;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-      rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    border-radius: 5%;
+    box-shadow: rgba(212, 163, 3, 0.89) 0px 19px 38px,
+      rgba(226, 157, 9, 0.938) 0px 15px 12px;
   }
 }
-@media only screen and (min-width: 330px) {
-  .row {
-    display: flex;
-  }
+
+.row {
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
   .col {
-    width: 50%;
+    max-width: 50%;
+    margin-right: 100px;
   }
   .left-header {
     display: flex;
     margin: 30px;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
   }
 }
-.scanbutton {
+.inside {
+  width: 500px;
+  min-height: 500px;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 50px 50px;
+  border-radius: 2px;
+  transition: all 0.1s ease-in-out;
+  float: left;
+  overflow-y: auto;
+  display: table-cell;
+  border-right: 2px solid #f1f1f1;
+}
+.logo {
+  object-fit: contain;
+  height: 30px;
+  width: auto;
+  display: block;
+  margin-bottom: 30px;
+  background-size: auto 100%;
+}
+.smartbutton {
+  margin: -57px -5px 2px 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(180deg, #3949be 0%, #0013a7 100%);
+  border-radius: 20px;
+  color: #fff;
+  float: right;
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+  padding: 5px 12px;
+}
+.sing {
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 30px;
+  transition: all 0.1s ease-in-out;
+}
+@media only screen and (max-width: 600px) {
+  .input {
+    margin-top: 10px;
+    border-radius: 4px;
+    align-items: center;
+  }
+}
+.input {
+  display: block;
+  position: relative;
+  margin-top: 15px;
+  height: 40px;
+  width: 98%;
+  border-radius: 4px;
+  font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+  .next {
+    margin-top: 10px;
+    border-radius: 4px;
+    align-items: center;
+  }
+}
+.next {
+  box-shadow: 0px 2px 2px #fff;
+  background-color: #159aff;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 44px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  margin: auto;
+  margin-top: 25px;
+  transition: all 0.2s ease-in-out;
+}
+.microsoft {
+  background-color: #f2f2f2;
+  width: 40px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.apple {
+  background-color: #f2f2f2;
+  width: 40px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.google {
+  background-color: #f2f2f2;
+  width: 40px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.linkedin {
+  background-color: #f2f2f2;
+  width: 40px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.twitter {
+  background-color: #f2f2f2;
+  width: 40px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.facebook {
+  background-color: #f2f2f2;
+  width: 40px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* .scanbutton {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -41,28 +174,55 @@
   cursor: pointer;
   padding: 12px 16px;
 }
-@media only screen and (min-width: 300px) {
+@media screen and (min-width: 300px) {
   .logo img {
     object-fit: contain;
-    height: 50px;
+    height: 40px;
     width: auto;
+    display: block;
+    margin-bottom: 30px;
+    background-size: auto 100%;
   }
   .logo button {
     height: 40px;
-    width: 20%;
+    max-width: 20%;
     margin: 20px 4px 20px 34%;
     border-radius: 10px;
     background-color: rgb(9, 129, 185);
   }
 }
-@media only screen and (min-width: 600px) {
-  .input {
-    height: 50px;
-    width: 80px;
+@media screen and (min-width: 768px) {
+  .text {
+    margin-left: 100px;
   }
 }
-@media only screen and (min-width: 500px) {
+@media screen and (min-width: 300px) {
+  .email {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+  }
+}
+@media screen and (min-width: 600px) {
   .scanbutton {
-    float: right;
+    justify-content: flex-end;
   }
 }
+.next {
+  margin-left: 101px;
+  padding-top: 40px;
+}
+@media screen and (min-width: 300px) {
+  .next {
+    margin-right: 100px;
+  }
+}
+@media screen and (min-width: 300px) {
+  .submitbutton {
+    height: 40px;
+    width: 400px;
+    background-color: #0013a7;
+    color: #fff;
+    border-radius: 10px;
+  }
+} */

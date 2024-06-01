@@ -119,47 +119,38 @@
     border-radius: 4px;
   }
 }
-.microsoft {
+.iconsItem {
   background-color: #f2f2f2;
   width: 40px;
   border-radius: 4px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.apple {
-  background-color: #f2f2f2;
-  width: 40px;
-  border-radius: 4px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+.side-box{
+  width: 390px;
+    height: 530px;
+    float: right;
+    box-sizing: border-box;
+    padding: 158px;
+    background-color: #fff;
+    display: table-cell;
+    overflow: hidden;
 }
-.google {
-  background-color: #f2f2f2;
-  width: 40px;
-  border-radius: 4px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+.banner{
+  width: 250px;
+  display: block;
+  position: relative;
+  height: 457px;
+    transform: translate(-130px,-130px);
+    padding: 10px 7px;
 }
-.linkedin {
-  background-color: #f2f2f2;
-  width: 40px;
-  border-radius: 4px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-.twitter {
-  background-color: #f2f2f2;
-  width: 40px;
-  border-radius: 4px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-.facebook {
-  background-color: #f2f2f2;
-  width: 40px;
-  border-radius: 4px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+.banner-img{
+  display: block;
+  padding-right: 50px;
+    width: 350px;
+    height: 240px;
+    margin: auto;
+    background-size: 100%;
 }
 /* .scanbutton {
   display: flex;

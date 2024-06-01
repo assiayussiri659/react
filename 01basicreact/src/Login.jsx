@@ -1,6 +1,7 @@
 import React from "react";
 import "./Login.css";
 const Login = () => {
+
   return (
     <div className="main">
       <div className="col">
@@ -28,12 +29,12 @@ const Login = () => {
                 <div className="signin-text">
                   <h2>Sign in using</h2>
                   <div className="icons">
-                    <img className="microsoft" src="microsoft.png" alt="" />
-                    <img className="apple" src="apple.png" alt="" />
-                    <img className="google" src="google.png" alt="" />
-                    <img className="linkedin" src="linkedin.png" alt="" />
-                    <img className="twitter" src="twitter.png" alt="" />
-                    <img className="facebook" src="facebook.png" alt="" />
+                    <img className="iconsItem" src="microsoft.png" alt="" />
+                    <img className="iconsItem" src="apple.png" alt="" />
+                    <img className="iconsItem" src="google.png" alt="" />
+                    <img className="iconsItem" src="linkedin.png" alt="" />
+                    <img className="iconsItem" src="twitter.png" alt="" />
+                    <img className="iconsItem" src="facebook.png" alt="" />
                     <div className="link">
                       <h4>Don't have a Zoho account?</h4>
                     </div>
@@ -44,7 +45,11 @@ const Login = () => {
           </div>
         </div>
         <div className="left-header">
-          <div className="col"></div>
+          <div className="side-box">
+            <div className="banner">
+            <img className="banner-img" src="banner2.jpg" alt="" />
+            </div>
+          </div>
         </div>
       </div>
       <div className="col"></div>
